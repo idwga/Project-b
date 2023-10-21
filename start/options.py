@@ -1,11 +1,12 @@
 import os
+from asset import name
+
 class run:
-    ir = open("data/user.txt", "r")
-    dat = ir.read()
-    n1 = dat.find("+")+1
-    n2 = dat.find(";")
-    name = dat[n1:n2]
-    print('what would you like to do today '+name)
+    print("")
+
+print('what would you like to do today')
+print(name.run())
+
 a=0
 while a==0:
     inp = input("[a]Read log          [b]Run a message\n[c]Read Message     [q]Quit\n")   
