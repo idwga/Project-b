@@ -24,6 +24,10 @@ while a==0:
         from func import clearCache
         clearCache.run()
 
+    if(inp=="d"):
+        from func import writeMessage
+        writeMessage.run()
+
     if(inp=="q"):
         print("\nQuitting....")
         a=1
