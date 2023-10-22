@@ -1,3 +1,3 @@
 class run:
-    ia = open("data/title.txt")
+    ia = open("data/title")
     print(ia.read())

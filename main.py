@@ -1,3 +1,3 @@
 from start import home
-
-home.run()
+class run():
+    home.run()

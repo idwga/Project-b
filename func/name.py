@@ -1,6 +1,6 @@
 class run:
     def __init__(self):
-        ir = open("data/user.txt", "r")
+        ir = open("data/user", "r")
         dat = ir.read()
         n1 = dat.find("+")+1
         n2 = dat.find(";")

@@ -1,5 +1,4 @@
 from start import intro
-from asset import clearTempCache
 from start import collection
 from start import options
 class run: 
@@ -7,6 +6,7 @@ class run:
 	collection.run()
 	print("\n")
 	options.run()
+	from func import clearTempCache
 	clearTempCache.run()
 
 
