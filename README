@@ -1,3 +1,7 @@
 Project b is a project of learning python through a new experimental method called free style learning
 
 Running as a script is not implemented yet, run run.py in vscode if you wish to run this
+
+give run.sh excutable permission if you are on linux
+run run.pyc if you can if you are not on linux
+run run.py in a compiler if all else fails
