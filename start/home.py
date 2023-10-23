@@ -1,6 +1,6 @@
 from start import intro
 from start import collection
-from start import options
+from options import options
 class run: 
 	intro.run()
 	collection.run()

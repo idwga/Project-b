@@ -13,7 +13,7 @@ class run:
             from func import logCreate
             from start import intro
             from func import userCreate
-            from start import options
+            from options import options
             userCreate.run()
             intro.run()
             print("\n")
