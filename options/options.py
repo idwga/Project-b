@@ -8,11 +8,12 @@ class run:
 
     a=0
     while a==0:
-        inp = input("[a]Place Holder      [b]read a message\n[c]Utilities         [q]Quit\n")   
+        inp = input("[a]Image scraper      [b]read a message\n[c]Utilities         [q]Quit\n")   
         inp = inp.lower()
         print(inp)
         if(inp=="a"):
-            print("(a)Place Holder")
+            from scraping import imgScraper
+            imgScraper.run()
     
         if(inp == "b"):
             from func import message
