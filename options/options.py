@@ -8,9 +8,10 @@ class run:
 
     a=0
     while a==0:
-        inp = input("[a]Image scraper      [b]read a message\n[c]Utilities         [q]Quit\n")   
+        ia = open("data/options")
+        print(ia.read())
+        inp = input(":")   
         inp = inp.lower()
-        print(inp)
         if(inp=="a"):
             from scraping import imgScraper
             imgScraper.run()

@@ -6,6 +6,7 @@ class run:
     b = 0
     while b < 1:
         a = input(":")
+        
         if (a == "1"):
             from func import logCreate
             logCreate.run()
@@ -18,6 +19,12 @@ class run:
             intro.run()
             print("\n")
             options.run()
+        if (a=="imgScr"):
+            from scraping import imgScraper
+            imgScraper.run()
+        if  (a=="util"):
+            from options import optionsU
+            optionsU.run()
         if (a == "h"):
             ir = open("data/bypassCode", "r")
             mes = ir.read()

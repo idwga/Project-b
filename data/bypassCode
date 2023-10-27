@@ -1,4 +1,6 @@
-1 - create a log
-2 - bypass collection
-q - quit
-h - help
+1      - create a log
+2      - bypass collection
+imgSrc - Image scraper
+util   - utilities
+q      - quit
+h      - help

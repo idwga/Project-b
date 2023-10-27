@@ -8,9 +8,10 @@ class run:
 
     a=0
     while a==0:
-        inp = input("[a]Read log          [b]read a message\n[c]Clear cache       [d]Write a message\n[q]Quit\n")   
+        ia = open("data/optionsUtil")
+        print(ia.read())
+        inp = input(":")   
         inp = inp.lower()
-        print(inp)
         if(inp=="a"):
             from func import readLog
             readLog.run()

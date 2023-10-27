@@ -73,6 +73,8 @@ while a==0:
 		url = input("Enter URL: ")
 		name = input("Enter image name: ")
 		main(url,name)
+		ea = open("data/imgScrOut")
+		print(ea.read())
 	if(inp=="q"):
 		a+=1
 	print("\n")
