@@ -2,10 +2,10 @@ import os
 
 
 class run:
-    print("\n\n[DEV-MODE ACTIVATED]\n")
+    print("[DEV-MODE ACTIVATED]\n")
     b = 0
     while b < 1:
-        a = input(":")
+        a = input("<Project-B-Devmode>:~")
         
         if (a == "1"):
             from func import logCreate
