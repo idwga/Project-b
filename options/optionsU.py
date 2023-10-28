@@ -4,11 +4,9 @@ class run:
     print("")
 
     print('Welcome to utilities')
-    print(name.run())
-
     a=0
     while a==0:
-        ia = open("data/optionsUtil")
+        ia = open("data/display/optionsUtil")
         print(ia.read())
         inp = input(":")   
         inp = inp.lower()

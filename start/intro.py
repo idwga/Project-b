@@ -1,3 +1,3 @@
 class run:
-    ia = open("data/title")
+    ia = open("data/display/title")
     print(ia.read())

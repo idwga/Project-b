@@ -3,7 +3,7 @@ import requests
 import os
 class run:
 	print("")
-ia = open("data/imgScrTit")
+ia = open("data/display/imgScrTit")
 print(ia.read())
 
 def folder_create(images,name):
@@ -73,7 +73,7 @@ while a==0:
 		url = input("Enter URL: ")
 		name = input("Enter image name: ")
 		main(url,name)
-		ea = open("data/imgScrOut")
+		ea = open("data/display/imgScrOut")
 		print(ea.read())
 	if(inp=="q"):
 		a+=1

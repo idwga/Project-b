@@ -1,3 +1,2 @@
 #!/bin/bash
-chmod +x run.pyc
-./run.pyc
+/usr/bin/python3 'run.py' 

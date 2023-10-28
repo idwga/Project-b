@@ -26,12 +26,12 @@ class run:
             from options import optionsU
             optionsU.run()
         if (a == "h"):
-            ir = open("data/bypassCode", "r")
+            ir = open("data/display/bypassCode", "r")
             mes = ir.read()
             ir.close()
             print(mes)
         if (a == "q"):
-            if os.path.exists("log/log"):
+            if os.path.exists("data/record/log"):
                 from func import clearTempCache
                 clearTempCache.run()
             b += 1

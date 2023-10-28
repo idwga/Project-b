@@ -4,11 +4,9 @@ class run:
     print("")
 
     print('what would you like to do today')
-    print(name.run())
-
     a=0
     while a==0:
-        ia = open("data/options")
+        ia = open("data/display/options")
         print(ia.read())
         inp = input(":")   
         inp = inp.lower()

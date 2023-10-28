@@ -1,6 +1,6 @@
 class main:
 
-    ia = open("data/main")
+    ia = open("data/display/main")
     print(ia.read()+"\n")
     inp = input("<Project-B-home>:~")
     if(inp=="dev"):
@@ -9,4 +9,5 @@ class main:
     if(inp=="start"):
         from head import main
         main.run()
+        
 

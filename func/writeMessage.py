@@ -1,7 +1,7 @@
 class run():
     print("\n Write your for the next user message below:")
     mes = input("")
-    ua = open("data/message", "w")
+    ua = open("data/record/message", "w")
     for a in mes:
         ua.write(a)
     ua.close()

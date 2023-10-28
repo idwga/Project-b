@@ -3,7 +3,7 @@ class run:
         import os
         cwd = os.getcwd()
         mes = cwd
-        ua = open("data/currentLocation", "w")
+        ua = open("data/record/currentLocation", "w")
         for a in mes:
             ua.write(a)
         ua.close()

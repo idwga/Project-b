@@ -1,6 +1,6 @@
 class run:
     import os
-    if os.path.exists("data/log"):
-        os.remove("data/log")
+    if os.path.exists("data/record/log"):
+        os.remove("data/record/log")
     else:
         print("Error:Cache does not exist") 

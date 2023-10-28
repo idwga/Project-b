@@ -19,12 +19,12 @@ user = ["-"+time, "+"+name1, ";"+name2, ","+age, "."+fname]
 log = [time, name1, name2, age, fname]
 
 
-ua = open("data/user", "a")
+ua = open("data/record/user", "a")
 for a in user:
     ua.write(a+"\n")
 ua.close()
 
-la = open("data/log", "a")
+la = open("data/record/dog", "a")
 la.write("+\n")
 for b in log:
     la.write(b+"\n")
