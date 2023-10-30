@@ -8,6 +8,7 @@ class run:
     while a==0:
         ia = open("data/display/options")
         print(ia.read())
+        ia.close()
         inp = input(":")   
         inp = inp.lower()
         if(inp=="a"):

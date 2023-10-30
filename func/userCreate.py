@@ -11,7 +11,7 @@ class run():
         ir = open("data/record/userDev", "r")
         user = ir.read()
         ir.close()
-        ua = open("data/record.user", "a")
+        ua = open("data/record/user", "a")
         for a in user:
             ua.write(a)
         ua.close()
