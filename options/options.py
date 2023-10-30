@@ -5,8 +5,9 @@ class run:
 
     print('what would you like to do today')
     a=0
+    b=0
     while a==0:
-        ia = open("data/display/options")
+        ia = open("data/display/options{index}".format(index=b))
         print(ia.read())
         ia.close()
         inp = input(":")   
@@ -23,6 +24,16 @@ class run:
             from options import optionsU
             optionsU.run()
 
+        if(inp=="d"):
+            from func import web
+            web.run()
+
+        
+
+        if(inp=="p"):
+            b-=1
+        if(inp=="n"):
+            b+=1
         if(inp=="q"):
             print("\nQuitting....")
             a=1
